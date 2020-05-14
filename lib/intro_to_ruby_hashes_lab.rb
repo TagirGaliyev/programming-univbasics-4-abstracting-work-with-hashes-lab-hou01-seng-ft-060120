@@ -19,5 +19,3 @@ def update_counting_hash(hash, key)
   else
     hash[key] = 1
 end
-
-puts my_hash_creator(1, 2)
