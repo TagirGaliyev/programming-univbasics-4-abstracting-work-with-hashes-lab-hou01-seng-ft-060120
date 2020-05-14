@@ -19,4 +19,4 @@ def update_counting_hash(hash, key)
 end
 
 h = {:Texas => "TX", California: "CA", "Nevada" => "NV"}
-puts read_from_hash(h, "California")
+puts read_from_hash(h, "California:") 
