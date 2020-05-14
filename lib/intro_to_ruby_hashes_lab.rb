@@ -15,9 +15,9 @@ def update_counting_hash(hash, key)
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
   if hash[key]
-    puts "Yes"
+    hash[key] += 1
   else
-    puts "No"
+    hash[key] = 1
   end
 end
 h = my_hash_creator(1,2)
