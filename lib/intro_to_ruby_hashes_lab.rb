@@ -14,16 +14,6 @@ def update_counting_hash(hash, key)
   # given a hash an a key as parameters, return an updated hash
   # if the provided key is not present in the hash, add it and assign it to the value of 1
   # if the provided key is present, increment its value by 1
-  exists = hash[key] ? true : false
-  puts exists
+  hash[key] ? hash[key] += 1 : hash[key] = 1
+  hash
 end
-
-h = {:Texas => "TX", California: "CA", "Nevada" => "NV"}
-
-puts h.keys
-key = :Texas
-puts h[key]
-key = California:
-puts h[key]
-key = "Nevada"
-puts h[key]
