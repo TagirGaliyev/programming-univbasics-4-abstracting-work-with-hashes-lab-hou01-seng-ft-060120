@@ -21,6 +21,9 @@ end
 h = {:Texas => "TX", California: "CA", "Nevada" => "NV"}
 
 puts h.keys
-puts h[:Texas]
-puts h[California:]
-puts h["Nevada"]
+key = :Texas
+puts h[key]
+key = California:
+puts h[key]
+key = "Nevada"
+puts h[key]
